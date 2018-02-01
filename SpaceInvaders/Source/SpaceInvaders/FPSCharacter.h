@@ -8,7 +8,7 @@
 #include "FPSCharacter.generated.h"
 
 UCLASS()
-class FPSPROJECT_API AFPSCharacter : public ACharacter
+class SPACEINVADERS_API AFPSCharacter : public ACharacter
 {
 	GENERATED_BODY()
 

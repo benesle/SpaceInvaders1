@@ -5,7 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Pawn.h"
 #include "Camera/CameraComponent.h"
-#include "MyPawn.geneated.h"
+#include "MyPawn.generated.h"
 
 UCLASS()
 class SPACEINVADERS_API AMyPawn : public APawn

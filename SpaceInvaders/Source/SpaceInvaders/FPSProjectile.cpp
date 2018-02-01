@@ -4,6 +4,10 @@
 #include "MyPawn.h"
 #include "SpaceInvaders.h"
 
+// Jeg har commenta ut hele denne filen, fordi det er akkuratt den samme filen som "FPSCharacter.h" , med et annet navn.
+// Nederst har jeg lagt inn noen tomme funksjoner istedenfor det som var i filen. (slik at det ikke krasjer)
+/*
+
 // Sets default values
 AFPSCharacter::AFPSCharacter()
 {
@@ -126,4 +130,34 @@ void AFPSCharacter::Fire()
 			}
 		}
 	}
+}
+
+*/
+
+AFPSProjectile::AFPSProjectile() {
+	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = true;
+
+
+
+}
+
+void AFPSProjectile::BeginPlay() {
+
+	Super::BeginPlay();
+
+
+}
+
+void AFPSProjectile::Tick(float DeltaSeconds) {
+	
+	Super::Tick(DeltaSeconds);
+
+
+}
+
+void AFPSProjectile::FireInDirection(const FVector& ShootDirection) {
+
+
+
 }
